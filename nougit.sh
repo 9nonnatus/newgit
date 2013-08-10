@@ -7,7 +7,7 @@ name=$1
 desc=$2
 uname='9nonnatus'
 
-curl -u $uname https://api.github.com/user/repos -d '{"name":"'"$1"'","description":"'"$2"'"}'
+curl -u $uname https://api.github.com/user/repos -d '{"name":"'"$name"'","description":"'"$desc"'"}'
 
 mkdir $name
 cd $name
