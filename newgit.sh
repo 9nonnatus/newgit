@@ -1,5 +1,5 @@
 #!/bin/bash
-# Usage: nougit repo-name "Repo description"
+# Usage: newgit repo-name "Repo description"
 # This will create the remote and local repos for you (including the local folder).
 # Don't forget to change uname to your GitHub username.
 
